@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Quicksand:wght@400;500;600;700&family=Exo+2:wght@400;500;600;700&display=swap');
+
+/* Global font defaults */
+* {
+  font-family: "Exo 2", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Background handled by line animation */
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Specific element styles */
+h1 { 
+  font-family: "Zilla Slab", serif; 
+  color: #FE9920;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h2 { 
+  font-family: "Quicksand", sans-serif; 
+  color: #DCDCDD;
+  font-size: 2rem;
+  font-weight: 600;
+}
+h3 { 
+  font-family: "Quicksand", sans-serif; 
+  color: #DCDCDD;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+h4, h5, h6 {
+  font-family: "Quicksand", sans-serif;
+  color: #DCDCDD;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+a { 
+  color: #DCDCDD; 
+  text-decoration: none; 
+}
+a:hover { 
+  color: rgb(231, 158, 74); 
 }
 
-.card {
-  padding: 2em;
+p { 
+  font-family: "Exo 2", sans-serif; 
+  font-size: 20px; 
 }
 
-.read-the-docs {
-  color: #888;
+label { 
+  font-family: "Exo 2", sans-serif; 
+  font-size: 20px; 
+}
+
+hr { 
+  border: 1px solid rgb(160, 148, 102); 
+}
+
+button { 
+  font-family: "Exo 2", sans-serif;
+}
+
+input, textarea, select { 
+  font-family: "Exo 2", sans-serif;
 }

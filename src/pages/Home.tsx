@@ -7,6 +7,8 @@ const Home: React.FC = () => {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Welcome to My Resume
         </h1>
+        <h2 className="text-2xl mb-4">Test Quicksand Font</h2>
+        <h3 className="text-xl mb-4">Test Quicksand Font</h3>
         <p className="text-lg text-gray-600">
           This is the home page of my resume website.
         </p>
