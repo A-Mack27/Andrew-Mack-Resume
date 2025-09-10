@@ -39,9 +39,12 @@ h4, h5, h6 {
 a { 
   color: #DCDCDD; 
   text-decoration: none; 
+  font-family: "Exo 2", sans-serif; 
+  font-size: 20px; 
 }
+
 a:hover { 
-  color: rgb(231, 158, 74); 
+  color: #FE9920; 
 }
 
 p { 
