@@ -1,38 +1,41 @@
 .sidebar-links li {
-    width: 100%;
-  }
-  
-  .sidebar-links a {
-    position: relative;
-    display: block;
-    width: 100%;
-    overflow: hidden;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: #DCDCDD;
-  }
-  
-  .sidebar-links a::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: #FE9920;
-    transform: translateX(-100%);
-    transition: transform 0.45s ease;
-    z-index: 0;
-  }
-  
-  .sidebar-links a > span {
-    position: relative;
-    z-index: 10;
-    display: inline-block;
-  }
-  
-  .sidebar-links a:hover::before {
-    transform: translateX(0);
-  }
-  
-  .sidebar-links a:hover > span {
-    color: #444444;
-  }
-  
+  width: 100%;
+}
+
+.sidebar-links button {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #DCDCDD;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar-links button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #FE9920;
+  transform: translateX(-100%);
+  transition: transform 0.45s ease;
+  z-index: 0;
+}
+
+.sidebar-links button > span {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+}
+
+.sidebar-links button:hover::before {
+  transform: translateX(0);
+}
+
+.sidebar-links button:hover > span {
+  color: #444444;
+}

@@ -111,7 +111,6 @@ function drawBackground(): void {
   ctx.globalCompositeOperation = "lighter";
   for (let i = 0; i < bgDots.length; i++) {
     const grd = ctx.createRadialGradient(bgDots[i].x, bgDots[i].y, 0, bgDots[i].x, bgDots[i].y, bgDots[i].rad);
-    // Use blue tones that complement the gradient
     grd.addColorStop(0, `rgba(25, 133, 161, 0.2)`);
     grd.addColorStop(1, `rgba(25, 133, 161, 0)`);
     ctx.beginPath();

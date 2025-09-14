@@ -22,7 +22,7 @@ const LineBackground: React.FC = () => {
 
   return (
     <>
-      {/* Blue gradient background */}
+      {/* Blue background for animation - red will show through as stripes */}
       <div 
         style={{
           position: 'fixed',
@@ -31,7 +31,7 @@ const LineBackground: React.FC = () => {
           width: '100%',
           height: '100vh',
           zIndex: -2,
-          background: 'linear-gradient(to bottom, #1985A1 0%, #1985A1 100%)'
+          background: '#1FA0C1'
         }}
       />
       {/* Line animation canvas */}
