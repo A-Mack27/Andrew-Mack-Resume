@@ -47,6 +47,8 @@ a:hover {
 }
 
 p { 
+  margin-bottom: 20px;
+  color: #99acc0;
   font-family: "Exo 2", sans-serif; 
   font-size: 20px; 
 }
@@ -57,7 +59,7 @@ label {
 }
 
 hr { 
-  border: 1px solid rgb(160, 148, 102); 
+  border: 1px solid #FE9920; 
 }
 
 button { 
@@ -66,4 +68,63 @@ button {
 
 input, textarea, select { 
   font-family: "Exo 2", sans-serif;
+}
+
+/* Responsive scaling for zoom */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  p, a, label { font-size: 16px; }
+}
+
+/* Prevent sidebar text from getting too large when zoomed */
+.sidebar-buttons {
+  font-size: clamp(1.2rem, 1.5rem, 2rem);
+}
+
+.sidebar-buttons button {
+  padding: 0.75rem 1rem;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-buttons button:hover {
+  background-color: rgba(254, 153, 32, 0.1);
+}
+
+/* Ensure images scale properly with zoom */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make sidebar responsive to zoom */
+.sidebar-container {
+  width: clamp(350px, 30vw, 500px);
+}
+
+/* Custom scrollbar for sidebar */
+.sidebar-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+  background: #FE9920;
+  border-radius: 4px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb:hover {
+  background: #e68a1a;
+}
+
+/* Responsive profile picture sizing */
+.sidebar-container img {
+  max-width: clamp(150px, 200px, 240px);
+  width: 100%;
 }

@@ -49,11 +49,14 @@ function App() {
   return ( 
     <div className="min-h-screen"> 
       <LineBackground /> 
-      <Navbar /> 
-      <div className="fixed top-1/2 left-[5vw] -translate-y-1/2 w-[250px]"> 
+      <div className="max-h-[5vh]">
+        <Navbar /> 
+      </div>
+      <div className="fixed top-1/2 left-[5vw] -translate-y-1/2 sidebar-container">
         <Sidebar setCurrentCardContent={setCurrentCardContent} /> 
-        </div> 
-        <div className="ml-[30vw] mr-[5vw] mt-[10vh] pb-10"> 
+      </div>
+
+        <div className="ml-[27vw] mr-[5vw] mt-[7.5vh] pb-10"> 
             <DisplayCard children={cardContent} /> 
         </div> 
     </div> 
