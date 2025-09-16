@@ -11,13 +11,14 @@ export default function About() {
       <br />
       <div className="flex flex-wrap justify-center gap-4 mb-4">
         <figure className="w-full max-w-[450px] mx-auto">
-          <img src={bass} alt="Bass" className="w-full h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
+          <img src={bass} alt="A silhouette of me holding a bass" className="w-full h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
           <figcaption className="text-center text-sm text-gray-500 mt-1">
             I love playing bass!
           </figcaption>
         </figure>
+
         <figure className="w-full max-w-[450px] mx-auto">
-          <img src={drawing} alt="Drawing" className="w-full h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
+          <img src={drawing} alt="A drawing of my fiance and I" className="w-full h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
           <figcaption className="text-center text-sm text-gray-500 mt-1">
           {"My sister drew this and my pfp. She's so cool >:)"}
           </figcaption>
@@ -27,6 +28,7 @@ export default function About() {
       <h2>
         A bit of background...
       </h2>
+      
       <p>
         Hi, I'm Andrew Mack! I'm a Software Development major with a minor in Cybersecurity at Grand Canyon 
         University. Ever since I was nine, I've had a fascination with computers. In 2013, I created my Scratch account

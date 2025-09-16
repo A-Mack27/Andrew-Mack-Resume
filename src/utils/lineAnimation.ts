@@ -46,7 +46,7 @@ const conf: Config = {
   width: 1,
   length: 1.5,
   emitNum: 2, 
-  speed: 0.1, 
+  speed: 0.05, 
   opacity: 0.9, 
   maxLines: 200 
 };
@@ -58,8 +58,7 @@ function initializeCanvas(canvasElement: HTMLCanvasElement): void {
   const handleResize = () => {
     w = ctx.canvas.width = window.innerWidth;
     h = ctx.canvas.height = window.innerHeight;
-    
-    // Update background dots with new dimensions
+
     bgDots = [
       {
         rad: (w + h) / 2,

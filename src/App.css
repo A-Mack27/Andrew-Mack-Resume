@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Quicksand:wght@400;500;600;700&family=Exo+2:wght@400;500;600;700&display=swap');
 
-/* Global font defaults */
+/* Set the default font */
 * {
   font-family: "Exo 2", sans-serif;
 }
 
-/* Background handled by line animation */
 body {
   margin: 0;
   min-height: 100vh;
 }
 
-/* Specific element styles */
+/* Set style settings for most components */
 h1 { 
   font-family: "Zilla Slab", serif; 
   color: #FE9920;
@@ -66,19 +65,7 @@ button {
   font-family: "Exo 2", sans-serif;
 }
 
-input, textarea, select { 
-  font-family: "Exo 2", sans-serif;
-}
-
-/* Responsive scaling for zoom */
-@media (max-width: 768px) {
-  h1 { font-size: 2rem; }
-  h2 { font-size: 1.5rem; }
-  h3 { font-size: 1.25rem; }
-  p, a, label { font-size: 16px; }
-}
-
-/* Prevent sidebar text from getting too large when zoomed */
+/* Allows for the button animation on the sidebar */
 .sidebar-buttons {
   font-size: clamp(1.2rem, 1.5rem, 2rem);
 }
@@ -93,38 +80,25 @@ input, textarea, select {
   background-color: rgba(254, 153, 32, 0.1);
 }
 
-/* Ensure images scale properly with zoom */
-img {
-  max-width: 100%;
-  height: auto;
+/* Reserve the space for the scrollbar so content doesn't shift */
+html {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
 }
 
-/* Make sidebar responsive to zoom */
-.sidebar-container {
-  width: clamp(350px, 30vw, 500px);
+/* Navigation buttons in text for home page */
+.nav-button {
+  color: #FE9920;
+  text-decoration: underline;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  transition: color 0.2s ease;
 }
 
-/* Custom scrollbar for sidebar */
-.sidebar-container::-webkit-scrollbar {
-  width: 8px;
-}
-
-.sidebar-container::-webkit-scrollbar-track {
-  background: #1a1a1a;
-  border-radius: 4px;
-}
-
-.sidebar-container::-webkit-scrollbar-thumb {
-  background: #FE9920;
-  border-radius: 4px;
-}
-
-.sidebar-container::-webkit-scrollbar-thumb:hover {
-  background: #e68a1a;
-}
-
-/* Responsive profile picture sizing */
-.sidebar-container img {
-  max-width: clamp(150px, 200px, 240px);
-  width: 100%;
+.nav-button:hover {
+  color: #DCDCDD;
 }

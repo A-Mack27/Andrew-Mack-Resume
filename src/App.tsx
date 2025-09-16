@@ -20,7 +20,7 @@ function App() {
   let cardContent;
   switch (currentCardContent) {
     case 'home':
-      cardContent = <Home />
+      cardContent = <Home setCurrentCardContent={setCurrentCardContent} />
       break;
     case 'about':
       cardContent = <About />
@@ -41,7 +41,7 @@ function App() {
       cardContent = <Demos />
       break;
     default:
-      cardContent = <Home />
+      cardContent = <Home setCurrentCardContent={setCurrentCardContent} />
       break;
   }
   
@@ -52,10 +52,9 @@ function App() {
       <div className="max-h-[5vh]">
         <Navbar /> 
       </div>
-      <div className="fixed top-1/2 left-[5vw] -translate-y-1/2 sidebar-container">
+      <div className="fixed top-1/2 left-[5vw] -translate-y-1/2">
         <Sidebar setCurrentCardContent={setCurrentCardContent} /> 
       </div>
-
         <div className="ml-[27vw] mr-[5vw] mt-[7.5vh] pb-10"> 
             <DisplayCard children={cardContent} /> 
         </div> 
