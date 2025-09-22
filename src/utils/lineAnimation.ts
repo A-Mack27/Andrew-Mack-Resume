@@ -12,6 +12,9 @@ interface Line {
   v2: number;
   half: boolean;
   hue: number;
+  scale: number;
+  maxScale: number;
+  scaleDirection: number; // 1 for growing, -1 for shrinking
 }
 
 interface BackgroundDot {
@@ -48,7 +51,7 @@ const conf: Config = {
   emitNum: 2, 
   speed: 0.05, 
   opacity: 0.9, 
-  maxLines: 200 
+  maxLines: 150 
 };
 
 function initializeCanvas(canvasElement: HTMLCanvasElement): void {
@@ -91,6 +94,7 @@ function emitLine(): void {
   for (let i = 0; i < conf.emitNum; i++) {
     const rx = Math.random() * w + 100;
     const ry = Math.random() * h - 100;
+    const maxScale = Math.random() * 0.5 + 1.2; // Random scale between 1.2 and 1.7
     lines.push({
       x1: rx,
       y1: ry,
@@ -101,7 +105,10 @@ function emitLine(): void {
       v1: (Math.random() * (4 - 2) + 2) * conf.speed,
       v2: (Math.random() * (1 - 0.5) + 0.5) * conf.speed,
       half: false,
-      hue: Math.random() * 50
+      hue: Math.random() * 50,
+      scale: 0.1, // Start small
+      maxScale: maxScale,
+      scaleDirection: 1 // Start growing
     });
   }
 }
@@ -123,6 +130,16 @@ function drawBackground(): void {
 function drawLines(): void {
   ctx.globalCompositeOperation = "source-over";
   for (let i = 0; i < lines.length; i++) {
+    // Calculate center point for scaling
+    const centerX = (lines[i].x1 + lines[i].x2) / 2;
+    const centerY = (lines[i].y1 + lines[i].y2) / 2;
+    
+    // Apply scaling transformation
+    ctx.save();
+    ctx.translate(centerX, centerY);
+    ctx.scale(lines[i].scale, lines[i].scale);
+    ctx.translate(-centerX, -centerY);
+    
     ctx.lineWidth = lines[i].width;
     ctx.beginPath();
     ctx.moveTo(lines[i].x1, lines[i].y1);
@@ -131,6 +148,23 @@ function drawLines(): void {
     ctx.lineCap = "round";
     ctx.stroke();
     ctx.closePath();
+    ctx.restore();
+
+    // Update scale based on line lifecycle
+    if (lines[i].scaleDirection === 1) {
+      // Growing phase
+      lines[i].scale += 0.08;
+      if (lines[i].scale >= lines[i].maxScale) {
+        lines[i].scale = lines[i].maxScale;
+        lines[i].scaleDirection = 0; // Stop growing
+      }
+    } else if (lines[i].scaleDirection === -1) {
+      // Shrinking phase
+      lines[i].scale -= 0.1;
+      if (lines[i].scale <= 0.1) {
+        lines[i].scale = 0.1;
+      }
+    }
 
     if (lines[i].half === false) {
       lines[i].x1 -= lines[i].v1;
@@ -145,6 +179,11 @@ function drawLines(): void {
       lines[i].y1 += lines[i].v2;
       lines[i].x2 -= lines[i].v1;
       lines[i].y2 += lines[i].v1;
+      
+      // Start shrinking when line is about to disappear (very close to the removal threshold)
+      if (dist(lines[i].x1, lines[i].y1, lines[i].x2, lines[i].y2) <= 2 && lines[i].scaleDirection !== -1) {
+        lines[i].scaleDirection = -1;
+      }
     }
   }
 }
@@ -160,7 +199,7 @@ function clear(): void {
 function checkLines(): void {
   emitLine();
   for (let i = 0; i < lines.length; i++) {
-    if (lines[i].half === true && dist(lines[i].x1, lines[i].y1, lines[i].x2, lines[i].y2) <= 10) {
+    if (lines[i].half === true && dist(lines[i].x1, lines[i].y1, lines[i].x2, lines[i].y2) <= 1) {
       lines[i] = lines[lines.length - 1];
       lines.pop();
     } else if (lines[i].x1 < 0 && lines[i].x2 < 0 && lines[i].y1 > h && lines[i].y2 > h) {

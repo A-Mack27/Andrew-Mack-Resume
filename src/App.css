@@ -49,7 +49,7 @@ p {
   margin-bottom: 20px;
   color: #99acc0;
   font-family: "Exo 2", sans-serif; 
-  font-size: 20px; 
+  font-size: 22px; 
 }
 
 label { 
@@ -59,6 +59,13 @@ label {
 
 hr { 
   border: 1px solid #FE9920; 
+}
+
+.my-figcaption {
+  font-family: "Exo 2", sans-serif !important;
+  margin-top: 1;
+  color: #667990;
+  text-align: center;
 }
 
 button { 
@@ -101,4 +108,50 @@ html {
 
 .nav-button:hover {
   color: #DCDCDD;
+}
+
+.content-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.content-list li {
+  color: #99acc0;
+  font-size: 22px;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Table styling for references */
+.references-table-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.references-table {
+  border-collapse: collapse;
+  border: 1px solid #FE9920;
+  width: 100%;
+  max-width: 100%;
+}
+
+.references-table th {
+  background-color: rgba(254, 153, 32, 0.1);
+  border: 1px solid #FE9920;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #DCDCDD;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+}
+
+.references-table td {
+  border: 1px solid #FE9920;
+  padding: 1rem;
+  color: #99acc0;
+  font-family: "Exo 2", sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
 }

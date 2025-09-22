@@ -12,14 +12,14 @@ export default function About() {
       <div className="flex flex-wrap justify-center gap-4 mb-4">
         <figure className="w-full max-w-[450px] mx-auto">
           <img src={bass} alt="A silhouette of me holding a bass" className="w-full h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
-          <figcaption className="text-center text-sm text-gray-500 mt-1">
+          <figcaption className="my-figcaption">
             I love playing bass!
           </figcaption>
         </figure>
 
         <figure className="w-full max-w-[450px] mx-auto">
           <img src={drawing} alt="A drawing of my fiance and I" className="w-full h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
-          <figcaption className="text-center text-sm text-gray-500 mt-1">
+          <figcaption className="my-figcaption">
           {"My sister drew this and my pfp. She's so cool >:)"}
           </figcaption>
         </figure>
