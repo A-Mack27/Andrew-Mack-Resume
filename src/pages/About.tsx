@@ -29,21 +29,23 @@ export default function About() {
         A bit of background...
       </h2>
       
-      <p>
-        Hi, I'm Andrew Mack! I'm a Software Development major with a minor in Cybersecurity at Grand Canyon 
-        University. Ever since I was nine, I've had a fascination with computers. In 2013, I created my Scratch account
-        and I've never looked back.
-      </p>
+      <div className="paragraphs">
+        <p>
+          Hi, I'm Andrew Mack! I'm a Software Development major with a minor in Cybersecurity at Grand Canyon 
+          University. Ever since I was nine, I've had a fascination with computers. In 2013, I created my Scratch account
+          and I've never looked back.
+        </p>
 
-      <p>
-      I like taking on any project that involves coding. Computers are very straightforward; binary is a definitive yes 
-      or no. Being on the spectrum, my brain naturally works that same way. Logic is by far my biggest strength.
-      </p>
+        <p>
+        I like taking on any project that involves coding. Computers are very straightforward; binary is a definitive yes 
+        or no. Being on the spectrum, my brain naturally works that same way. Logic is by far my biggest strength.
+        </p>
 
-      <p>
-        Outside of tech, you'll probably find me out on a disc golf course, at a concert, watching Formula One, playing bass,
-        or shooting photos with my great-grandfather's film camera. I'm also engaged to the most beautiful woman in the world :)
-      </p>
+        <p>
+          Outside of tech, you'll probably find me out on a disc golf course, at a concert, watching Formula One, playing bass,
+          or shooting photos with my great-grandfather's film camera. I'm also engaged to the most beautiful woman in the world :)
+        </p>
+      </div>
     </>
   );
 };

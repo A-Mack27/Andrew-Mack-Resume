@@ -14,7 +14,7 @@ interface Line {
   hue: number;
   scale: number;
   maxScale: number;
-  scaleDirection: number; // 1 for growing, -1 for shrinking
+  scaleDirection: number;
 }
 
 interface BackgroundDot {
@@ -50,7 +50,7 @@ const conf: Config = {
   length: 1.5,
   emitNum: 2, 
   speed: 0.05, 
-  opacity: 0.9, 
+  opacity: 0.75, 
   maxLines: 150 
 };
 
@@ -94,21 +94,21 @@ function emitLine(): void {
   for (let i = 0; i < conf.emitNum; i++) {
     const rx = Math.random() * w + 100;
     const ry = Math.random() * h - 100;
-    const maxScale = Math.random() * 0.5 + 1.2; // Random scale between 1.2 and 1.7
+    const maxScale = Math.random() * 0.5 + 1.2;
     lines.push({
       x1: rx,
       y1: ry,
       x2: rx,
       y2: ry,
       length: (Math.random() * (260 - 80) + 80) * conf.length,
-      width: (Math.random() * (15 - 5) + 5) * conf.width,
+      width: (Math.random() * (15 - 9) + 8) * conf.width,
       v1: (Math.random() * (4 - 2) + 2) * conf.speed,
       v2: (Math.random() * (1 - 0.5) + 0.5) * conf.speed,
       half: false,
       hue: Math.random() * 50,
-      scale: 0.1, // Start small
+      scale: 0.1,
       maxScale: maxScale,
-      scaleDirection: 1 // Start growing
+      scaleDirection: 1
     });
   }
 }

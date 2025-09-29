@@ -12,7 +12,7 @@ export default function Experience() {
         being said, I love learning. I want to know more about working in a software development space and I'm
         eager to gain some coding experience in a professional environment
       </p>
-      <h2>Jobs and Volunteer Work</h2>
+      <h2 className="mt-4">Jobs and Volunteer Work</h2>
       <ul className="content-list mb-4">
         <li>Over 18 months at Noodles and Company as a noodle cooker, accuracy specialist, expo worker, prepper, and dishwasher</li>
         <li>5 months at I Heart Mac & Cheese working dish, prep, and register</li>

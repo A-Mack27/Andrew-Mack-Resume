@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Quicksand:wght@400;500;600;700&family=Exo+2:wght@400;500;600;700&display=swap');
 
+/*
+Main colors
+Blue: #1985A1
+Red: #C3423F
+Yellow/orange: #FE9920
+Headers: #DCDCDD
+Paragraphs: #99acc0
+*/
+
 /* Set the default font */
 * {
   font-family: "Exo 2", sans-serif;
@@ -46,7 +55,6 @@ a:hover {
 }
 
 p { 
-  margin-bottom: 20px;
   color: #99acc0;
   font-family: "Exo 2", sans-serif; 
   font-size: 22px; 
@@ -126,7 +134,6 @@ html {
 .references-table-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
 }
 
 .references-table {
