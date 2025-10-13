@@ -17,7 +17,7 @@ export default function Sidebar({ setCurrentCardContent }: SidebarProps) {
                     <li><button data-section="home" onClick={() => setCurrentCardContent('home')}><span>Home</span></button></li>
                     <li><button data-section="about" onClick={() => setCurrentCardContent('about')}><span>About</span></button></li>
                     <li><button data-section="experience" onClick={() => setCurrentCardContent('experience')}><span>Experience</span></button></li>
-                    <li><button data-section="education" onClick={() => setCurrentCardContent('education')}><span>Education</span></button></li>
+                    <li><button data-section="education" onClick={() => setCurrentCardContent('education')}><span>Tech Stack</span></button></li>
                     <li><button data-section="demos" onClick={() => setCurrentCardContent('demos')}><span>Demos</span></button></li>
                     <li><button data-section="gallery" onClick={() => setCurrentCardContent('gallery')}><span>Gallery</span></button></li>
                     <li><button data-section="contact" onClick={() => setCurrentCardContent('contact')}><span>Contact</span></button></li>

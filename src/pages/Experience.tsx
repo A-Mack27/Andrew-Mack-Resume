@@ -9,9 +9,15 @@ export default function Experience() {
         Currently, I do not have any experience in the software development field. I've spent my life working
         in the food industry, and while that isn't relevant to programming, it still teaches a lot in regard to
         things such as patience, efficiency, work ethic, and interacting with both customers and coworkers. That
-        being said, I love learning. I want to know more about working in a software development space and I'm
-        eager to gain some coding experience in a professional environment
+        being said, I really, really love learning. I want to know more about working in a software development 
+        space and I'm eager to gain some coding experience in a professional environment
       </p>
+      <h2 className="mt-4">Education</h2>
+      <ul className="content-list mb-4">
+        <li>High School Diploma</li>
+        <li>Grand Canyon University, Bachelor of Science in Software Development</li>
+        <li>Grand Canyon University, Minor in Cybersecurity</li>
+      </ul>
       <h2 className="mt-4">Jobs and Volunteer Work</h2>
       <ul className="content-list mb-4">
         <li>Over 18 months at Noodles and Company as a noodle cooker, accuracy specialist, expo worker, prepper, and dishwasher</li>
