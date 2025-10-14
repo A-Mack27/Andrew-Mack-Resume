@@ -15,7 +15,7 @@ export default function Gallery() {
       <div className="grid grid-cols-3 gap-6 max-w-6xl mx-auto">
         {galleryImages.map((image, index) => (
           <div key={index} className="overflow-hidden rounded-lg hover:scale-110 transition-transform duration-300 cursor-pointer">
-            <div className="aspect-square bg-gray-100">
+            <div className="aspect-[3/2]">
               <img 
                 src={image} 
                 alt={`Gallery image ${index + 1}`}
