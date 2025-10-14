@@ -13,8 +13,12 @@ export default function Home({ setCurrentCardContent }: HomeProps) {
       </h1>
       <hr />
       <div className="flex flex-wrap justify-center mb-4 mt-8 gap-16">
-        <img src={cards} alt="A picture of me doing a faro shuffle" className="w-full max-w-[610px] h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
-        <img src={kitchen} alt="A picture of me making french toast" className="w-full max-w-[305px] h-auto object-cover border-4 border-[#C3423F] rounded-sm" />
+        <div className="w-full max-w-[610px] h-[400px]">
+          <img src={cards} alt="A picture of me doing a faro shuffle" className="w-full h-full object-cover border-4 border-[#C3423F] rounded-sm" loading="lazy" />
+        </div>
+        <div className="w-full max-w-[305px] h-[400px]">
+          <img src={kitchen} alt="A picture of me making french toast" className="w-full h-full object-cover border-4 border-[#C3423F] rounded-sm" loading="lazy" />
+        </div>
       </div>
       <h2>Welcome to my website!</h2>
       <p className="mb-7">
