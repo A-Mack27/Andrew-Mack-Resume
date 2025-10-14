@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
+import Sidebar from './components/SideBar'
 import DisplayCard from './components/DisplayCard'
 import LineBackground from './components/LineBackground'
 import Home from './pages/Home'
@@ -50,7 +50,7 @@ function App() {
     <div className="min-h-screen"> 
       <LineBackground /> 
       <div className="max-h-[5vh]">
-        <Navbar /> 
+        <Navbar setCurrentCardContent={setCurrentCardContent} /> 
       </div>
       <div className="fixed top-1/2 left-[5vw] -translate-y-1/2">
         <Sidebar setCurrentCardContent={setCurrentCardContent} /> 
