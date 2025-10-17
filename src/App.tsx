@@ -70,8 +70,8 @@ function App() {
         <div className="fixed top-0 left-0 right-0 z-50 bg-[#C3423F] text-white p-4 text-center">
           <div className="max-w-4xl mx-auto flex items-center justify-between">
             <div className="flex-1">
-              <p className="font-semibold">⚠️ Mobile Experience Not Optimized</p>
-              <p className="text-sm">This site is best viewed on desktop. Mobile support coming soon!</p>
+              <p className="font-semibold text-white">⚠️ Mobile Experience Not Optimized</p>
+              <p className="text-sm text-white">This site is best viewed on desktop. Mobile support coming soon!</p>
             </div>
             <button 
               onClick={() => setShowMobileWarning(false)}
