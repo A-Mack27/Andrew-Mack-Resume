@@ -30,7 +30,7 @@ export default function Education() {
             </div>
             <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h4 className="font-bold text-2xl text-white mb-2">HTML</h4>
-              <p className="text-sm text-white/90">HTML certainly isn't my strong suit, as most of it is stuff you need to just know rather than something you can use logic to solve. This site is a good demonstration of the extent of my knowledge in HTML</p>
+              <p className="text-sm text-white/90">HTML is tricky since most of it is stuff you need to just know rather than something you can use logic to solve. This site is a good demonstration of the extent of my knowledge in HTML</p>
             </div>
             <div className="bg-gradient-to-br from-blue-500 to-blue-700 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h4 className="font-bold text-2xl text-white mb-2">SQL</h4>
@@ -48,19 +48,19 @@ export default function Education() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-gradient-to-br from-red-500 to-red-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h4 className="font-bold text-2xl text-white mb-2">JavaScript</h4>
-              <p className="text-sm text-white/90">It's certainly not my favorite, but I still know a fair amount</p>
+              <p className="text-sm text-white/90">It's certainly not my favorite, but I still know a fair amount and I'm working on improving my skills</p>
             </div>
             <div className="bg-gradient-to-br from-red-500 to-red-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h4 className="font-bold text-2xl text-white mb-2">CSS</h4>
-              <p className="text-sm text-white/90">CSS is challenging for the same reasons as HTML, but I can still manage</p>
+              <p className="text-sm text-white/90">CSS requires a different approach than logic-based languages, but I'm getting more comfortable with it through practice</p>
             </div>
             <div className="bg-gradient-to-br from-red-600 to-red-700 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h4 className="font-bold text-2xl text-white mb-2">PowerShell</h4>
-              <p className="text-sm text-white/90">I did a very small amount of PowerShell for an IT class</p>
+              <p className="text-sm text-white/90">I learned PowerShell basics in an IT class and I'm interested in exploring more automation possibilities</p>
             </div>
             <div className="bg-gradient-to-br from-red-600 to-red-800 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h4 className="font-bold text-2xl text-white mb-2">Bash</h4>
-              <p className="text-sm text-white/90">I also did a very small amount of Bash for an operating systems class</p>
+              <p className="text-sm text-white/90">I also learned Bash fundamentals in an operating systems class and I'm looking forward to diving deeper</p>
             </div>
           </div>
         </div>
