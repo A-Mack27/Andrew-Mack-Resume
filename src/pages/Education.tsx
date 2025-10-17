@@ -1,4 +1,3 @@
-import ProgressBar from '../components/ProgressBar'
 
 export default function Education() {
   return (
@@ -7,102 +6,65 @@ export default function Education() {
       <hr />
       <br />
       <h2>Programming Languages</h2>
-      <div className="references-table-container mt-2">
-        <table className="references-table">
-          <thead>
-            <th><h3>Language</h3></th>
-            <th><h3>Familiarity</h3></th>
-          </thead>
-          <tbody>
-            <tr>
-              <td><h3>C#</h3></td>
-              <td className="references-table-td">
-                <ProgressBar value={100} />
-                <p className="text-sm">This is definitely my favorite language I've learned so far. Since it was
-                  the most enjoyable for me, it also meant I enjoyed learning more than was just
-                  taught in class
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>Java</h3></td>
-              <td>
-                <ProgressBar value={95} />
-                <p className="text-sm">This is my second best language. Like C#, I took three semesters of Java,
-                  though I didn't like Java as much and as such didn't experiment as much
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>TypeScript</h3></td>
-              <td>
-                <ProgressBar value={90} />
-                <p className="text-sm">
-                  TypeScript is the foundation of this site and while I'm new to it,
-                  I quite like it. It's also what we used for our senior project application
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>HTML</h3></td>
-              <td>
-                <ProgressBar value={78} />
-                <p className="text-sm">
-                  HTML certainly isn't my strong suit, as most of it is stuff you need to just know
-                  rather than something you can use logic to solve. This site is a good demonstration
-                  of the extent of my knowledge in HTML
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>SQL</h3></td>
-              <td>
-                <ProgressBar value={75} />
-                <p className="text-sm">SQL is pretty straightforward and was easy to get a hold of
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>Python</h3></td>
-              <td>
-                <ProgressBar value={60} />
-                <p className="text-sm">
-                  This is the first actual language I learned, though it was for an AP high
-                  school class through Code Academy, not in an actual IDE
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>JavaScript</h3></td>
-              <td>
-                <ProgressBar value={50} />
-                <p className="text-sm">It's certainly not my favorite, but I still know a fair amount</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>CSS</h3></td>
-              <td>
-                <ProgressBar value={40} />
-                <p className="text-sm">CSS is challenging for the same reasons as HTML, but I can still manage</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>PowerShell</h3></td>
-              <td>
-                <ProgressBar value={20} />
-                <p className="text-sm">I did a very small amount of PowerShell for an IT class</p>
-              </td>
-            </tr>
-            <tr>
-              <td><h3>Bash</h3></td>
-              <td>
-                <ProgressBar value={15} />
-                <p className="text-sm">I also did a very small amount of Bash for an operating systems class</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <div className="mt-4 space-y-8">
+        <div>
+          <h3 className="text-xl font-bold text-[#FE9920] mb-4 border-b-2 border-[#FE9920] pb-2">Well-versed</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-gradient-to-br from-[#FE9920] to-[#C3423F] p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">C#</h4>
+              <p className="text-sm text-white/90">This is definitely my favorite language I've learned so far. Since it was the most enjoyable for me, it also meant I enjoyed learning more than was just taught in class</p>
+            </div>
+            <div className="bg-gradient-to-br from-[#FE9920] to-[#C3423F] p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">Java</h4>
+              <p className="text-sm text-white/90">This is my second best language. Like C#, I took three semesters of Java, though I didn't like Java as much and as such didn't experiment as much</p>
+            </div>
+          </div>
         </div>
+
+        <div>
+          <h3 className="text-xl font-bold text-[#FE9920] mb-4 border-b-2 border-[#FE9920] pb-2">Proficient</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">TypeScript</h4>
+              <p className="text-sm text-white/90">TypeScript is the foundation of this site and while I'm new to it, I quite like it. It's also what we used for our senior project application</p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">HTML</h4>
+              <p className="text-sm text-white/90">HTML certainly isn't my strong suit, as most of it is stuff you need to just know rather than something you can use logic to solve. This site is a good demonstration of the extent of my knowledge in HTML</p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-500 to-blue-700 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">SQL</h4>
+              <p className="text-sm text-white/90">SQL is pretty straightforward and was easy to get a hold of</p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">Python</h4>
+              <p className="text-sm text-white/90">This is the first actual language I learned, though it was for an AP high school class through Code Academy, not in an actual IDE</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-xl font-bold text-[#FE9920] mb-4 border-b-2 border-[#FE9920] pb-2">Learning</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="bg-gradient-to-br from-red-500 to-red-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">JavaScript</h4>
+              <p className="text-sm text-white/90">It's certainly not my favorite, but I still know a fair amount</p>
+            </div>
+            <div className="bg-gradient-to-br from-red-500 to-red-600 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">CSS</h4>
+              <p className="text-sm text-white/90">CSS is challenging for the same reasons as HTML, but I can still manage</p>
+            </div>
+            <div className="bg-gradient-to-br from-red-600 to-red-700 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">PowerShell</h4>
+              <p className="text-sm text-white/90">I did a very small amount of PowerShell for an IT class</p>
+            </div>
+            <div className="bg-gradient-to-br from-red-600 to-red-800 p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <h4 className="font-bold text-2xl text-white mb-2">Bash</h4>
+              <p className="text-sm text-white/90">I also did a very small amount of Bash for an operating systems class</p>
+            </div>
+          </div>
+        </div>
+      </div>
         
         <br />
         <h2>Tools & Technologies</h2>
@@ -207,7 +169,7 @@ export default function Education() {
               <li>Atlassian</li>
             </ul>
           </div>
-        </div>
+      </div>
     </>
   );
 }
