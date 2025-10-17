@@ -15,14 +15,12 @@ import { useState, useEffect } from 'react'
 function App() { 
   // Keep track of the current page, using home as the default
   const [currentCardContent, setCurrentCardContent] = useState('home')
-  const [isMobile, setIsMobile] = useState(false)
   const [showMobileWarning, setShowMobileWarning] = useState(false)
 
   // Check if user is on mobile
   useEffect(() => {
     const checkMobile = () => {
       const mobile = window.innerWidth < 768 // Tailwind's md breakpoint
-      setIsMobile(mobile)
       if (mobile) {
         setShowMobileWarning(true)
       }
