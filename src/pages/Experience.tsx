@@ -4,30 +4,33 @@ export default function Experience() {
       <h1>Experience</h1>
       <hr />
       <br />
-      <h2>Note</h2>
+      <h2>Current Project</h2>
       <p>
-        Currently, I do not have any experience in the software development field. I've spent my life working
-        in the food industry, and while that isn't relevant to programming, it still teaches a lot in regard to
-        things such as patience, efficiency, work ethic, and interacting with both customers and coworkers. That
-        being said, I really, really love learning. I want to know more about working in a software development 
-        space and I'm eager to gain some coding experience in a professional environment
+        <strong>LUNARA - Resource Library Service Developer</strong><br />
+        LUNARA is an app for Doulas, a compassionate digital sanctuary connecting postpartum mothers with certified Doulas and support specialists during their fourth trimester journey. I am developing the Resource Library Service that powers 35–40% of LUNARA's core architecture. Also implementing a unified content management framework with role-based access, ML-driven personalization, and enterprise-grade search and CDN integration. The systems optimize scalability, reduce technical debt, and deliver a performant foundation for content operations.
       </p>
       <h2 className="mt-4">Education</h2>
       <ul className="content-list mb-4">
-        <li>High School Diploma</li>
-        <li>Grand Canyon University, Bachelor of Science in Software Development</li>
-        <li>Grand Canyon University, Minor in Cybersecurity</li>
+        <li>Heritage High School, Littleton, CO - High School Diploma, GPA 3.98 (2022)</li>
+        <li>Arapahoe High School, Centennial, CO - GPA 4.00 (2018-2021)</li>
+        <li>Grand Canyon University, Phoenix, AZ - Bachelor of Science in Software Development, GPA 3.23 (Expected 2025)</li>
+        <li>Grand Canyon University, Phoenix, AZ - Minor in Cybersecurity (Expected 2025)</li>
       </ul>
-      <h2 className="mt-4">Jobs and Volunteer Work</h2>
+      <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li>Over 18 months at Noodles and Company as a noodle cooker, accuracy specialist, expo worker, prepper, and dishwasher</li>
-        <li>5 months at I Heart Mac & Cheese working dish, prep, and register</li>
-        <li>Volunteered a few times at Operation Christmas Child, an organization dedicated to providing essentials to those less 
-          fortunate in other countries
-        </li>
-        <li>Four months at Great Harvest Bread CO working register, dish, sandwich cart, and closer</li>
-        <li>Volunteered to play bass guitar at an event with 300 attendees</li>
-        <li>12 months at the Jimmy John's on my college campus, working in every non-managerial position</li>
+        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ</strong> - Seasonal 2024, 09/2025-Current<br />
+        Received and made food orders, managed cash register, performed front and back area duties, closed store. Worked every front and back non-managerial position part-time while attending GCU full-time.</li>
+        <li><strong>Noodles and Company, Centennial, CO</strong> - Seasonal 2020, 2021, 2022, 2024<br />
+        Noodle Cooker, Accuracy Specialist, Expo Worker, Prepper, and Dishwasher. Worked all front and back non-managerial positions.</li>
+        <li><strong>Great Harvest Bread Company, Greenwood Village, CO</strong> - Seasonal 2023<br />
+        Received and prepared food orders, managed cash register, sandwich cart, and closed store.</li>
+        <li><strong>I Heart Mac & Cheese, Highlands Ranch, CO</strong> - Seasonal 2021, 2022<br />
+        Received and prepared food orders, managed cash register, performed front and back area duties, closed store. Performed all non-managerial position duties.</li>
+      </ul>
+      <h2 className="mt-4">Volunteer Experience</h2>
+      <ul className="content-list mb-4">
+        <li>Operation Christmas Child - Bass guitarist at event of +300 attendees</li>
+        <li>Bass guitarist at South Fellowship (Colorado)</li>
       </ul>
       <h2>References</h2>
       <div className="references-table-container">

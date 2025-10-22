@@ -36,13 +36,17 @@ export default function About() {
       <div className="paragraphs">
         <p>
           Hi, I'm Andrew Mack! I'm a Software Development major with a minor in Cybersecurity at Grand Canyon 
-          University. Ever since I was nine, I've had a fascination with computers. In 2013, I created my Scratch account
+          University, expected to graduate in 2025. Ever since I was nine, I've had a fascination with computers. In 2013, I created my Scratch account
           and I've never looked back.
         </p>
 
         <p>
-        I like taking on any project that involves coding. Computers are very straightforward; binary is a definitive yes 
-        or no. Being on the spectrum, my brain naturally works that same way. Logic is by far my biggest strength.
+        I love learning and applying my skills! I want to work in a software development or IT team environment where I can apply my skills and gain professional experience. Currently, I'm developing the Resource Library Service for LUNARA, an app for Doulas that connects postpartum mothers with certified Doulas and support specialists.
+        </p>
+
+        <p>
+          I like taking on any project that involves coding. Computers are very straightforward; binary is a definitive yes 
+          or no. Being on the spectrum, my brain naturally works that same way. Logic is by far my biggest strength.
         </p>
 
         <p>
