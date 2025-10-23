@@ -29,38 +29,11 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Volunteer Experience</h2>
       <ul className="content-list mb-4">
-        <li>Operation Christmas Child - Bass guitarist at event of +300 attendees</li>
+        <li>Operation Christmas Child - Bass guitarist at event of 300+ attendees</li>
         <li>Bass guitarist at South Fellowship (Colorado)</li>
       </ul>
       <h2>References</h2>
-      <div className="references-table-container">
-        <table className="references-table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Relation</th>
-              <th>Contact Info</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Owen Lindsey</td>
-              <td>Capstone project leader</td>
-              <td>Owen.lindsey98@outlook.com</td>
-            </tr>
-            <tr>
-              <td>Josiah Nelson</td>
-              <td>Coworker at several places</td>
-              <td>(720)-841-8227<br />josiahnelson55@gmail.com</td>
-            </tr>
-            <tr>
-              <td>Joey Kellogg</td>
-              <td>Great Harvest store owner</td>
-              <td>(303)-909-6180<br />jkellogg@greatharvest.com</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <p>References available upon request</p>
     </>
   );
 }
