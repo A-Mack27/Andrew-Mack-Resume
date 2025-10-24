@@ -18,13 +18,13 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ</strong> - June 2024 - August 2024, September 2025 - Current<br />
+        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ</strong> - Jun 2024 - Aug 2024, Sep 2025 - Current<br />
         Received and made food orders, managed cash register, performed front and back area duties, closed store. Worked every front and back non-managerial position part-time while attending GCU full-time.</li>
-        <li><strong>Noodles and Company, Centennial, CO</strong> - June 2020 - August 2020, June 2021 - August 2021, June 2022 - August 2022, June 2024 - August 2024<br />
+        <li><strong>Noodles and Company, Centennial, CO</strong> - Jun 2020 - Aug 2020, Jun 2021 - Aug 2021, Jun 2022 - Aug 2022, Jun 2024 - Aug 2024<br />
         Noodle Cooker, Accuracy Specialist, Expo Worker, Prepper, and Dishwasher. Worked all front and back non-managerial positions.</li>
-        <li><strong>Great Harvest Bread Company, Greenwood Village, CO</strong> - June 2023 - August 2023<br />
+        <li><strong>Great Harvest Bread Company, Greenwood Village, CO</strong> - Jun 2023 - Aug 2023<br />
         Received and prepared food orders, managed cash register, sandwich cart, and closed store.</li>
-        <li><strong>I Heart Mac & Cheese, Highlands Ranch, CO</strong> - June 2021 - August 2021, June 2022 - August 2022<br />
+        <li><strong>I Heart Mac & Cheese, Highlands Ranch, CO</strong> - Jun 2021 - Aug 2021, Jun 2022 - Aug 2022<br />
         Received and prepared food orders, managed cash register, performed front and back area duties, closed store. Performed all non-managerial position duties.</li>
       </ul>
       <h2 className="mt-4">Volunteer Experience</h2>
