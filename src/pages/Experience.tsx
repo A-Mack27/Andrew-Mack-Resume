@@ -18,18 +18,23 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ</strong> - Jun 2024 - Aug 2024, Sep 2025 - Current<br />
-        Received and made food orders, managed cash register, performed front and back area duties, closed store. Worked every front and back non-managerial position part-time while attending GCU full-time.</li>
-        <li><strong>Noodles and Company, Centennial, CO</strong> - Jun 2020 - Aug 2020, Jun 2021 - Aug 2021, Jun 2022 - Aug 2022, Jun 2024 - Aug 2024<br />
-        Noodle Cooker, Accuracy Specialist, Expo Worker, Prepper, and Dishwasher. Worked all front and back non-managerial positions.</li>
-        <li><strong>Great Harvest Bread Company, Greenwood Village, CO</strong> - Jun 2023 - Aug 2023<br />
-        Received and prepared food orders, managed cash register, sandwich cart, and closed store.</li>
-        <li><strong>I Heart Mac & Cheese, Highlands Ranch, CO</strong> - Jun 2021 - Aug 2021, Jun 2022 - Aug 2022<br />
-        Received and prepared food orders, managed cash register, performed front and back area duties, closed store. Performed all non-managerial position duties.</li>
+        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ 85017</strong> - Seasonal 2024, 09/2025-Current<br />
+        • Balanced full-time studies with part-time work across all non-managerial roles<br />
+        • Maintained a clean, efficient workspace while providing consistent customer service</li>
+        <li><strong>Noodles and Company, Centennial, CO 80121</strong> - Seasonal 2020, 2021, 2022, 2024<br />
+        • Managed multiple food prep stations with strong time management and accuracy<br />
+        • Ensured food safety and collaborated effectively in a fast-paced environment</li>
+        <li><strong>Great Harvest Bread Company, Greenwood Village, CO 80121</strong> - Seasonal 2023<br />
+        • Delivered friendly customer service and managed sandwich cart operations<br />
+        • Performed closing duties and adapted to changing customer needs</li>
+        <li><strong>I Heart Mac & Cheese, Highlands Ranch, CO 80129</strong> - Seasonal 2021, 2022<br />
+        • Worked reliably across all non-managerial roles with attention to detail<br />
+        • Maintained sanitation standards and supported team operations</li>
       </ul>
       <h2 className="mt-4">Volunteer Experience</h2>
       <ul className="content-list mb-4">
-        <li>Operation Christmas Child - Bass guitarist at event of 300+ attendees</li>
+        <li>Operation Christmas Child</li>
+        <li>Bass guitarist at event of 300+ attendees</li>
         <li>Bass guitarist at South Fellowship (Colorado)</li>
       </ul>
       <h2>References</h2>
