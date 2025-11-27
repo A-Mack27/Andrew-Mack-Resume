@@ -9,6 +9,7 @@ export default function Experience() {
         <strong>LUNARA - Resource Library Service Developer</strong><br />
         LUNARA is an app for Doulas, a compassionate digital sanctuary connecting postpartum mothers with certified Doulas and support specialists during their fourth trimester journey. I am developing the Resource Library Service that powers 35–40% of LUNARA's core architecture. Also implementing a unified content management framework with role-based access, ML-driven personalization, and enterprise-grade search and CDN integration. The systems optimize scalability, reduce technical debt, and deliver a performant foundation for content operations.
       </p>
+      <a href="https://gist.github.com/A-Mack27/e1f0185df3c66c7f3a398d769fe147d6" target="_blank" rel="noopener noreferrer" className="underline">LUNARA Gist Portfolio</a>
       <h2 className="mt-4">Education</h2>
       <ul className="content-list mb-4">
         <li>Heritage High School, Littleton, CO - High School Diploma, GPA 3.98 (2022)</li>
