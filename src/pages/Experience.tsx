@@ -19,7 +19,7 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ 85017</strong> - Seasonal 2024, 09/2025-Current<br />
+        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ 85017</strong> - Seasonal 2024, 2025<br />
         • Balanced full-time studies with part-time work across all non-managerial roles<br />
         • Maintained a clean, efficient workspace while providing consistent customer service</li>
         <li><strong>Noodles and Company, Centennial, CO 80121</strong> - Seasonal 2020, 2021, 2022, 2024<br />
