@@ -15,7 +15,7 @@ export default function Experience() {
         <li>Heritage High School, Littleton, CO - High School Diploma, GPA 3.98 (2022)</li>
         <li>Arapahoe High School, Centennial, CO - GPA 4.00 (2018-2021)</li>
         <li>Grand Canyon University, Phoenix, AZ - Bachelor of Science in Software Development, GPA 3.23 (Expected 2025)</li>
-        <li>Grand Canyon University, Phoenix, AZ - Minor in Cybersecurity (Expected 2025)</li>
+        <li>Grand Canyon University, Phoenix, AZ - Minor in Cybersecurity (2025)</li>
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
