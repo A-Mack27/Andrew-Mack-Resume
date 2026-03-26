@@ -19,7 +19,7 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li><strong>JWinCo Foods, Eagle, ID 83616</strong> - March 2026 - Current<br />
+        <li><strong>WinCo Foods, Eagle, ID 83616</strong> - March 2026 - Current<br />
         • Improvising in a fast-paced and demanding environment<br />
         • Consistent lifting of 50-pound products</li>
         <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ 85017</strong> - Seasonal 2024, 2025<br />
