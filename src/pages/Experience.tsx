@@ -19,25 +19,25 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li><strong>Help Desk Specialist, Nampa School District, Nampa, ID 83686</strong> - May 2026 - Current <br />
+        <li><strong>Help Desk Specialist</strong>, Nampa School District, Nampa, ID 83686 | May 2026 - Current <br />
         • Provided in person and remote technical support to students across middle and high schools
         • Assessed, cleaned, reimaged, and maintained student HP laptops
         • Utilized Active Directory and collaborated with student interns on technology projects
         • Created, managed, and resolved support tickets for student device and technical issues</li>
         <br />
-        <li><strong>WinCo Foods, Eagle, ID 83616</strong> - March - May 2026<br />
+        <li><strong>WinCo Foods</strong>, Eagle, ID 83616 | March - May 2026<br />
         • Improvised in a fast-paced and demanding environment<br />
         • Consistently lifted 50-pound products</li>
-        <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ 85017</strong> - Seasonal 2024, 2025<br />
+        <li><strong>Jimmy John's</strong>, GCU Campus, Phoenix, AZ 85017 | Seasonal 2024, 2025<br />
         • Balanced full-time studies with part-time work across all non-managerial roles<br />
         • Maintained a clean, efficient workspace while providing consistent customer service</li>
-        <li><strong>Noodles and Company, Centennial, CO 80121</strong> - Seasonal 2020, 2021, 2022, 2024<br />
+        <li><strong>Noodles and Company</strong>, Centennial, CO 80121 | Seasonal 2020, 2021, 2022, 2024<br />
         • Managed multiple food prep stations with strong time management and accuracy<br />
         • Ensured food safety and collaborated effectively in a fast-paced environment</li>
-        <li><strong>Great Harvest Bread Company, Greenwood Village, CO 80121</strong> - Seasonal 2023<br />
+        <li><strong>Great Harvest Bread Company</strong>, Greenwood Village, CO 80121 | Seasonal 2023<br />
         • Delivered friendly customer service and managed sandwich cart operations<br />
         • Performed closing duties and adapted to changing customer needs</li>
-        <li><strong>I Heart Mac & Cheese, Highlands Ranch, CO 80129</strong> - Seasonal 2021, 2022<br />
+        <li><strong>I Heart Mac & Cheese</strong>, Highlands Ranch, CO 80129 | Seasonal 2021, 2022<br />
         • Worked reliably across all non-managerial roles with attention to detail<br />
         • Maintained sanitation standards and supported team operations</li>
       </ul>
