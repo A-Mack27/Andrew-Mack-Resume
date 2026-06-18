@@ -19,9 +19,15 @@ export default function Experience() {
       </ul>
       <h2 className="mt-4">Work Experience</h2>
       <ul className="content-list mb-4">
-        <li><strong>WinCo Foods, Eagle, ID 83616</strong> - March 2026 - Current<br />
-        • Improvising in a fast-paced and demanding environment<br />
-        • Consistent lifting of 50-pound products</li>
+        <li><strong>Help Desk Specialist, Nampa School District, Nampa, ID 83686</strong> - May 2026 - Current <br />
+        • Provided in person and remote technical support to students across middle and high schools
+        • Assessed, cleaned, reimaged, and maintained student HP laptops
+        • Utilized Active Directory and collaborated with student interns on technology projects
+        • Created, managed, and resolved support tickets for student device and technical issues</li>
+        <br />
+        <li><strong>WinCo Foods, Eagle, ID 83616</strong> - March - May 2026<br />
+        • Improvised in a fast-paced and demanding environment<br />
+        • Consistently lifted 50-pound products</li>
         <li><strong>Jimmy John's, GCU Campus, Phoenix, AZ 85017</strong> - Seasonal 2024, 2025<br />
         • Balanced full-time studies with part-time work across all non-managerial roles<br />
         • Maintained a clean, efficient workspace while providing consistent customer service</li>
