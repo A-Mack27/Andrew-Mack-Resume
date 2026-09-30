@@ -6,7 +6,7 @@ import LineBackground from './components/LineBackground'
 import Home from './pages/Home'
 import About from './pages/About'
 import Experience from './pages/Experience'
-import Education from './pages/Education'
+import TechStack from './pages/TechStack'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
 import Demos from './pages/Demos'
@@ -44,7 +44,7 @@ function App() {
       cardContent = <Experience />
       break;
     case 'education':
-      cardContent = <Education />
+      cardContent = <TechStack />
       break;
     case 'gallery':
       cardContent = <Gallery />

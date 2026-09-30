@@ -1,5 +1,5 @@
 
-export default function Education() {
+export default function TechStack() {
   return (
     <>
       <h1>Tech Stack</h1>
@@ -121,15 +121,15 @@ export default function Education() {
               <li>Cisco Packet Tracer</li>
               <li>OpenVAS</li>
             </ul>
-          </div>
-          
-          <div>
+
             <h3>Operating Systems</h3>
             <ul className="content-list">
               <li>Windows</li>
               <li>Linux (Ubuntu, Kali)</li>
             </ul>
-            
+          </div>
+          
+          <div>
             <h3>Virtualization and Containerization</h3>
             <ul className="content-list">
               <li>VMware</li>
@@ -157,6 +157,23 @@ export default function Education() {
               <li>Microsoft Azure</li>
               <li>Google Cloud (GCP)</li>
               <li>AWS</li>
+            </ul>
+
+            <h3>IT & Systems</h3>
+            <ul className="content-list">
+              <li>Active Directory</li>
+              <li>Microsoft Entra</li>
+              <li>Microsoft Intune</li>
+              <li>Company Portal</li>
+              <li>Incident IQ</li>
+              <li>LogMeIn</li>
+              <li>System Imaging</li>
+            </ul>
+
+            <h3>PC Hardware</h3>
+            <ul className="content-list">
+              <li>Building and repairing PCs</li>
+              <li>OS and software install and setup</li>
             </ul>
             
             <h3>Version Control and Collaboration</h3>
