@@ -6,3 +6,33 @@
   .paragraphs p { @apply mb-4; }
   .paragraphs p:last-child { @apply mb-0; }
 }
+
+@keyframes navbar-role-exit {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes navbar-role-enter {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar-role-exit {
+  animation: navbar-role-exit 0.45s ease-in-out forwards;
+}
+
+.navbar-role-enter {
+  animation: navbar-role-enter 0.45s ease-in-out forwards;
+}
