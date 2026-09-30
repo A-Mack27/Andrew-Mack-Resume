@@ -4,7 +4,35 @@ export default function Experience() {
       <h1>Experience</h1>
       <hr />
       <br />
-      <h2>Current Project</h2>
+      <h2>Work Experience</h2>
+      <ul className="content-list mb-10">
+        <li><strong>Help Desk Specialist</strong>, Nampa School District, Nampa, ID 83686 | May 2026 - Current <br />
+        • Provided in person and remote technical support to 6,000+ students across middle and high schools<br />
+        • Entrusted to steward the personal information of 13,000+ students<br />
+        • Gave lessons to help desk students, explaining complex processes in digestible ways<br />
+        • Assessed, repaired, reimaged, cleaned, and maintained student HP laptops<br />
+        • Utilized Active Directory and collaborated with student interns on technology projects<br />
+        • Created, managed, and resolved support tickets for student device and technical issues<br />
+        • Developed positive relationships with my coworkers and provided feedback that has improved our efficiency<br />
+        • Created flowchart documentation for common troubleshooting and internal processes<br />
+        • Balanced multiple simultaneous support tasks with accuracy, documentation, and attention to detail<br />
+        • Organized and recabled district mobile laptop carts and managed cables across the district</li>
+      </ul>
+      <ul className="content-list mb-4">
+        <li><strong>WinCo Foods</strong>, Eagle, ID 83616 | March - May 2026</li>
+        <li><strong>Jimmy John's</strong>, GCU Campus, Phoenix, AZ 85017 | Seasonal 2024, 2025</li>
+        <li><strong>Noodles and Company</strong>, Centennial, CO 80121 | Seasonal 2020, 2021, 2022, 2024</li>
+        <li><strong>Great Harvest Bread Company</strong>, Greenwood Village, CO 80121 | Seasonal 2023</li>
+        <li><strong>I Heart Mac & Cheese</strong>, Highlands Ranch, CO 80129 | Seasonal 2021, 2022</li>
+      </ul>
+      <h2 className="mt-4">Certifications</h2>
+      <ul className="content-list mb-4">
+        <li>HP Self-Maintainer</li>
+        <li>Transportation of lithium batteries</li>
+        <li>Apple Certified Support Technician</li>
+        <li>Apple Certified Repair Technician – in progress</li>
+      </ul>
+      <h2 className="mt-4">Capstone Project</h2>
       <p>
         <strong>LUNARA - Resource Library Service Developer</strong><br />
         LUNARA is an app for Doulas, a compassionate digital sanctuary connecting postpartum mothers with certified Doulas and support specialists during their fourth trimester journey. I am developing the Resource Library Service that powers 35–40% of LUNARA's core architecture. Also implementing a unified content management framework with role-based access, ML-driven personalization, and enterprise-grade search and CDN integration. The systems optimize scalability, reduce technical debt, and deliver a performant foundation for content operations.
@@ -12,40 +40,16 @@ export default function Experience() {
       <a href="https://gist.github.com/A-Mack27/e1f0185df3c66c7f3a398d769fe147d6" target="_blank" rel="noopener noreferrer" className="underline">LUNARA Gist Portfolio</a>
       <h2 className="mt-4">Education</h2>
       <ul className="content-list mb-4">
-        <li>Heritage High School, Littleton, CO - High School Diploma, GPA 3.98 (2022)</li>
-        <li>Arapahoe High School, Centennial, CO - GPA 4.00 (2018-2021)</li>
         <li>Grand Canyon University, Phoenix, AZ - Bachelor of Science in Software Development, GPA 3.19 (2025)</li>
         <li>Grand Canyon University, Phoenix, AZ - Minor in Cybersecurity (2025)</li>
-      </ul>
-      <h2 className="mt-4">Work Experience</h2>
-      <ul className="content-list mb-4">
-        <li><strong>Help Desk Specialist</strong>, Nampa School District, Nampa, ID 83686 | May 2026 - Current <br />
-        • Provided in person and remote technical support to students across middle and high schools
-        • Assessed, cleaned, reimaged, and maintained student HP laptops
-        • Utilized Active Directory and collaborated with student interns on technology projects
-        • Created, managed, and resolved support tickets for student device and technical issues</li>
-        <br />
-        <li><strong>WinCo Foods</strong>, Eagle, ID 83616 | March - May 2026<br />
-        • Improvised in a fast-paced and demanding environment<br />
-        • Consistently lifted 50-pound products</li>
-        <li><strong>Jimmy John's</strong>, GCU Campus, Phoenix, AZ 85017 | Seasonal 2024, 2025<br />
-        • Balanced full-time studies with part-time work across all non-managerial roles<br />
-        • Maintained a clean, efficient workspace while providing consistent customer service</li>
-        <li><strong>Noodles and Company</strong>, Centennial, CO 80121 | Seasonal 2020, 2021, 2022, 2024<br />
-        • Managed multiple food prep stations with strong time management and accuracy<br />
-        • Ensured food safety and collaborated effectively in a fast-paced environment</li>
-        <li><strong>Great Harvest Bread Company</strong>, Greenwood Village, CO 80121 | Seasonal 2023<br />
-        • Delivered friendly customer service and managed sandwich cart operations<br />
-        • Performed closing duties and adapted to changing customer needs</li>
-        <li><strong>I Heart Mac & Cheese</strong>, Highlands Ranch, CO 80129 | Seasonal 2021, 2022<br />
-        • Worked reliably across all non-managerial roles with attention to detail<br />
-        • Maintained sanitation standards and supported team operations</li>
+        <li>Heritage High School, Littleton, CO - High School Diploma, GPA 3.98 (2022)</li>
+        <li>Arapahoe High School, Centennial, CO - GPA 4.00 (2018-2021)</li>
       </ul>
       <h2 className="mt-4">Volunteer Experience</h2>
       <ul className="content-list mb-4">
         <li>Operation Christmas Child</li>
         <li>Bass guitarist at event of 300+ attendees</li>
-        <li>Bass guitarist at South Fellowship (Colorado)</li>
+        <li>Bass guitarist as South Fellowship (CO), Calvary Church Gillette (WY), and Calvary Chapel Eagle (ID)</li>
       </ul>
       <h2>References</h2>
       <p>References available upon request</p>
